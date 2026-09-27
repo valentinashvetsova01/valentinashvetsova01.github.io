@@ -1,0 +1,25 @@
+.env
+.env.*
+!.env.example
+assets/raw/
+__pycache__/
+*.pyc
+
+# local only: original photos, drafts, editor config
+/photos/
+/concepts/
+/.claude/
+
+# kept locally but not used by the site (not published)
+assets/img/still-*.webp
+assets/obj/cup.webp
+assets/peony-*.webp
+assets/petal-*.webp
+assets/photos/me-in-spb-2.webp
+assets/photos/olympics-volunteer.webp
+assets/photos/pretty-me-2.webp
+assets/photos/pretty-me-3.webp
+assets/photos/pretty-me-4.webp
+assets/photos/pretty-me-5.webp
+assets/photos/pretty-me-7.webp
+assets/photos/young-me-in-spb.webp
